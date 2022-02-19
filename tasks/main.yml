@@ -1,2 +1,5 @@
 ---
-# tasks file for nix-node-tools
+- name: Install Ansible Language Server
+  import_tasks: tasks/install_ansible_language_server
+  tags:
+    - ansible

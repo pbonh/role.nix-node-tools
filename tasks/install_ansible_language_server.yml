@@ -1,0 +1,6 @@
+---
+- name: Install Ansible Language Server
+  community.general.npm:
+    name: ansible-language-server
+    global: yes
+    executable: "{{ nix_bin }}/npm"

@@ -1,2 +1,3 @@
 ---
-# defaults file for nix-node-tools
+nix_profile: "{{ ansible_env.HOME }}/.nix-profile"
+nix_bin: "{{ nix_profile }}/bin"

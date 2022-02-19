@@ -1,5 +1,5 @@
 ---
 - name: Install Ansible Language Server
-  import_tasks: tasks/install_ansible_language_server
+  import_tasks: tasks/install_ansible_language_server.yml
   tags:
     - ansible

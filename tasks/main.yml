@@ -3,3 +3,8 @@
   import_tasks: tasks/install_ansible_language_server.yml
   tags:
     - ansible
+
+- name: Install YAML Language Server
+  import_tasks: tasks/install_yaml_language_server.yml
+  tags:
+    - yaml
